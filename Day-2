@@ -178,3 +178,50 @@ int main(){
     }
 }
 
+homework::::::
+/*grade calculation
+#include<iostream>
+using namespace std;
+
+int main(){
+    int grade;
+    
+    cout<<"enter your grade(0-100)";
+    cin>>grade;
+    
+    if(grade>=90){
+        cout<<"grade:A";
+    }
+    else if(grade>=75) {
+        cout<<"grade:B";
+    }
+    else if(grade>=60) {
+        cout<<"grade:C";
+    }
+    else if(grade>=50 ){
+        cout<<"grade:D";
+    }
+    else{
+        cout<<"grade:F";
+    }
+    return 0;
+}*/
+
+/* even and odd
+#include<iostream>
+using namespace std;
+
+int main(){
+    int num;
+    
+    cout << "enter a number:";
+    cin>>num;
+    
+    if(num%2==0){
+        cout<<"number is even";
+    }else{
+        cout<<"number is odd";
+    }
+    return 0;
+}*/
+

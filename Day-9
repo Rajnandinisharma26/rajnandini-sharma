@@ -42,3 +42,54 @@ int main(){
     kitchenApp->work();
     
 }
+
+//problem 2 
+//define an array and initilization and traverse
+int main(){
+    int arr[5];
+    
+    cout<<"enter 5 numbers"<<"\n";
+    
+   for(int i=0;i<5;i++){
+       cin>>arr[i];
+   }
+   cout<<"Array elements are.."<<"\n";
+   
+   for(int i=0;i<5;i++){
+       cout<<arr[i]<<" ";
+   }
+}
+
+//problem 3 
+//sum of array data 
+
+int main(){
+    int arr[5];
+    int sum=0;
+    
+    cout<<"enter 5 numbers"<<"\n";
+    
+   for(int i=0;i<5;i++){
+       cin>>arr[i];
+       sum=sum+arr[i];
+   }
+   cout<<"sum of array elements are.."<<"\n";
+}
+
+//problem 4
+//find data memory address
+int main(){
+    int arr[5];
+    
+    
+    cout<<"enter 5 numbers"<<"\n";
+    
+   for(int i=0;i<5;i++){
+       cin>>arr[i];
+   }
+   cout<<"Array elements are.."<<"\n";
+   
+   for(int i=0;i<5;i++){
+       cout<<&arr[i]<<" ";
+   }
+}

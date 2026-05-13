@@ -1,0 +1,18 @@
+problem 1
+#include<iostream>
+using namespace std;
+
+int combos(int n){
+    //base condition
+    if(n==0){
+        return 1;
+    }
+    if(n==1){
+        return 2;
+    }
+    //logic
+    return combos(n-1)+combos(n-2);
+}
+int main(){
+    cout<<combos(3);
+}
